@@ -41,7 +41,7 @@
 	const signinForm = () => {
 		console.log("signinForm() CALLED!!");
 		
-		let form = document."signin_form";
+		let form = document.signin_form;
 		if (form.admin_id.value === '') {
 			alert('Input admin ID!!');
 			form.admin_id.focus();

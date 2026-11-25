@@ -21,7 +21,7 @@ public class MemberService {
 		String admin_mail = request.getParameter("admin_mail");
 		String admin_phone = request.getParameter("admin_phone");
 		
-		boolean isMember = memberDao.isMember("admin_id");
+		boolean isMember = memberDao.isMember(admin_id);
 		int result = 0;
 		//2. 회원가입
 		if(!isMember) {
