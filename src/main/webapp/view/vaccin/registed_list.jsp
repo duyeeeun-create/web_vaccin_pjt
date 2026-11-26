@@ -39,7 +39,7 @@
 						<th>LOCATION_NAME</th>
 						<th>LOCATION_ADDR</th>
 						<th>LOCATION_MANAGER</th>
-						<th>TYPE</th>
+						<th>TYPE</th> 
 						<th>TYPE_NO</th>
 						<th>TYPE_MANUF_COUNTRY</th>
 						<th>TYPE_MANUF_DATE</th>
