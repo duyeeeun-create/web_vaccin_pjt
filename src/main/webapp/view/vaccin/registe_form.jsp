@@ -9,6 +9,8 @@
 <link href = "./res/css/vaccin/vaccin.css" rel = "stylesheet">
 
 <jsp:include page="../include/js/vaccin.jsp"/>
+
+
 </head>
 <body>
 

@@ -10,22 +10,26 @@ public class VaccinDto {
 	private int		fv_location_no;
 	private String	fv_type	;	
 	private String	fvp_reg_date;
+	
+	private SocialNumberDto socialNumberDto;	
+	private LocationDto locationDto;
+	private TypeDto typeDto;
 
-public VaccinDto() {}
+	public VaccinDto() {}
 	
 
-public VaccinDto(int fvp_no, String fvp_name, String ss_number, String fvp_mail, String fvp_phone, int fv_location_no,
+	public VaccinDto(int fvp_no, String fvp_name, String ss_number, String fvp_mail, String fvp_phone, int fv_location_no,
 		String fv_type, String fvp_reg_date) {
 
-	this.fvp_no = fvp_no;
-	this.fvp_name = fvp_name;
-	this.ss_number = ss_number;
-	this.fvp_mail = fvp_mail;
-	this.fvp_phone = fvp_phone;
-	this.fv_location_no = fv_location_no;
-	this.fv_type = fv_type;
-	this.fvp_reg_date = fvp_reg_date;
-}
+		this.fvp_no = fvp_no;
+		this.fvp_name = fvp_name;
+		this.ss_number = ss_number;
+		this.fvp_mail = fvp_mail;
+		this.fvp_phone = fvp_phone;
+		this.fv_location_no = fv_location_no;
+		this.fv_type = fv_type;
+		this.fvp_reg_date = fvp_reg_date;
+	}
 
 public VaccinDto( String fvp_name, String ss_number, String fvp_mail, String fvp_phone, int fv_location_no,
 		String fv_type) {
@@ -102,6 +106,36 @@ public String getFvp_reg_date() {
 
 public void setFvp_reg_date(String fvp_reg_date) {
 	this.fvp_reg_date = fvp_reg_date;
+}
+
+
+public SocialNumberDto getSocialNumberDto() {
+	return socialNumberDto;
+}
+
+
+public void setSocialNumberDto(SocialNumberDto socialNumberDto) {
+	this.socialNumberDto = socialNumberDto;
+}
+
+
+public LocationDto getLocationDto() {
+	return locationDto;
+}
+
+
+public void setLocationDto(LocationDto locationDto) {
+	this.locationDto = locationDto;
+}
+
+
+public TypeDto getTypeDto() {
+	return typeDto;
+}
+
+
+public void setTypeDto(TypeDto typeDto) {
+	this.typeDto = typeDto;
 }
 
 }
