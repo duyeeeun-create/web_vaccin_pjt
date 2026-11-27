@@ -240,7 +240,7 @@ public class VaccinDao implements DatabaseInfo{
 					+ 	"fvp_mail =?, "
 					+ 	"fvp_phone =?, "
 					+ 	"fv_location_no =?, "
-					+ 	"fv_type =?, "
+					+ 	"fv_type =? "
 					+ "where " 
 					+ 	"fvp_no=? ";
 					
